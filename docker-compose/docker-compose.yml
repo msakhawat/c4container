@@ -1,0 +1,15 @@
+services:
+    # docker run "msakhawat/mywebapp"
+    web:
+      image: "msakhawat/mywebapp"
+    # docker run mongodb
+    database:
+      image: "mongodb"
+    # docker run redis:alpine
+    messaging:
+      image: "redis:alpine"
+    # docker run ansible
+    orchestration:
+      image: "ansible"
+
+# run 'docker-compose up' command
